@@ -30,8 +30,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 
-    /**
-     * Manipulates the map once available.
+    /*** Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
      * This is where we can add markers or lines, add listeners or move the camera. In this case,
      * we just add a marker near Sydney, Australia.
@@ -46,8 +45,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(42.023650, -93.645959);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Johnny\n"+"Text Johnny?"));
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Johnny Appleseed"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng camp = new LatLng(42.026619, -93.646465);
+        mMap.addMarker(new MarkerOptions().position(camp).title("Jimmy Neutron").snippet("Text Jimmy? (319)-827-2327"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(camp));
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
