@@ -1,7 +1,7 @@
 <resources>
     <!--
     TODO: Before you run your application, you need a Google Maps API key.
-
+    CHANGE API KEY: THIS IS THE ONE TO USE BEFORE YOU PUSH ONTO TO GITHUB: AIzaSyBWxXsMnep9lSnb9OyjKa6rZwoWAt3H324
     To get one, follow this link, follow the directions and press "Create" at the end:
 
     https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=CA:5D:3C:EE:C1:62:76:37:A3:47:EC:F0:E4:FB:FB:A2:62:BC:9F:58%3Bcom.mightyducklings.cpre186.cashmeoutside
@@ -15,5 +15,8 @@
     Once you have your key (it starts with "AIza"), replace the "google_maps_key"
     string in this file.
     -->
+
+
+
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBWxXsMnep9lSnb9OyjKa6rZwoWAt3H324</string>
 </resources>
