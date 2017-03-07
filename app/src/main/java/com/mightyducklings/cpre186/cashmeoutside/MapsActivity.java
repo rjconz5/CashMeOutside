@@ -44,12 +44,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(42.023650, -93.645959);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Johnny Appleseed").snippet("Text Johnny? (319)-939-9627"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-        LatLng camp = new LatLng(42.026619, -93.646465);
-        mMap.addMarker(new MarkerOptions().position(camp).title("Jimmy Neutron").snippet("Text Jimmy? (319)-827-2327"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(camp));
+        LatLng gilman = new LatLng(42.029525, -93.648627);
+        mMap.addMarker(new MarkerOptions().position(gilman).title("Aren Halleland").snippet("Text Aren? (319)-939-9627"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(gilman));
+        LatLng agronomy = new LatLng(42.028242, -93.642507);
+        mMap.addMarker(new MarkerOptions().position(agronomy).title("Nathan Shull").snippet("Text Nathan? (319)-827-2327"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(agronomy));
+        LatLng memUnion = new LatLng(42.023650, -93.645959);
+        mMap.addMarker(new MarkerOptions().position(memUnion).title("Nathan Goodwin").snippet("Text Nathan? (319)-123-4567"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(memUnion));
+        LatLng campaneil = new LatLng(42.026619, -93.646465);
+        mMap.addMarker(new MarkerOptions().position(campaneil).title("Ryan Connolly").snippet("Text Ryan? (319)-765-4321"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(campaneil));
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
