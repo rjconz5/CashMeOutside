@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "689798253064",
+    "firebase_url": "https://catch-me-outside.firebaseio.com",
+    "project_id": "catch-me-outside",
+    "storage_bucket": "catch-me-outside.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689798253064:android:16eca45c03279c41",
+        "android_client_info": {
+          "package_name": "com.mightyducklings.cpre186.cashmeoutside"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689798253064-3drrfcjs71r11n49h24ehdbrr901h68o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mightyducklings.cpre186.cashmeoutside",
+            "certificate_hash": "ca5d3ceec1627637a347ecf0e4fbfba262bc9f58"
+          }
+        },
+        {
+          "client_id": "689798253064-2l1fuhlflvm30d5c7ipmara3h3o7pdjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWfPxxRa0DJj7-phKxUX7f1e7J_1jxtcc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689798253064-2l1fuhlflvm30d5c7ipmara3h3o7pdjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
